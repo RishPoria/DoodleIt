@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Doodle It",
+    "description": "Draw something",
     "version": "1.0",
     "icons": {
         "16": "icons/icon16.png",
@@ -18,6 +19,6 @@
     ],
     "action": {
         "default_title": "Doodle It",
-        "default_popup": "popup.html"
+        "default_popup": "popup/popup.html"
     }
 }

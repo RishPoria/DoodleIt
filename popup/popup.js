@@ -1,7 +1,7 @@
 let marker;
 let markerState;
 let clear;
-let params = {
+const params = {
     active: true,
     currentWindow: true
 }
@@ -35,7 +35,7 @@ const s = (sketch) => {
     }
 
     const clearCanvas = () => {
-        console.log("clear called");
+        console.log("Clear called");
         chrome.tabs.query(params, gotTabs2);
     }
 
